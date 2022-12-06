@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Enter the radius of the circle"
+read r
+echo "3.142 * $r * $r"|bc
